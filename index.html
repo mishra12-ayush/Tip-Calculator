@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <header class="head">Tip Calculator</header>
+        <form action="">
+            
+            <p>How much is your Bill ?</p>
+            <p>₹<input type="text" id="billamt"></p><br><br>
+
+            <p>How was the service ?</p>
+            <p><select name="" id="select">
+                <option value="0.30">Outstanding</option>
+                <option value="0.20">Good</option>
+                <option value="0.15">It was OK</option>
+                <option value="0.10">Bad</option>
+                <option value="0.05">Terrible</option>
+            </select></p><br><br>
+
+            <p>How many people are sharing the Bill ?</p>
+            <input type="text" id="people"><br><br>
+            <button id="submit" onclick="tipamt()">CALCULATE</button>
+        </form>
+
+        
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
